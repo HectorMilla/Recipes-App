@@ -17,4 +17,4 @@ export default class Search {
 }
 
 // this if or recipi js
-//const res = await axios(`https://forkify-api.herokuapp.com/api/get?rId=${this.id}`);
+//
