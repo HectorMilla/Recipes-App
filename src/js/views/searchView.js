@@ -39,5 +39,4 @@ const renderRecipe = (recipe) => {
 
 export const renderResults = (recipes) => {
   recipes.forEach(renderRecipe);
-  console.log(recipes);
 };
