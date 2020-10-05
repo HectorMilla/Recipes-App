@@ -16,6 +16,7 @@
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "fractional": "^1.0.0",
     "live-server": "^1.2.1",
     "source-map": "^0.7.3"
   },
