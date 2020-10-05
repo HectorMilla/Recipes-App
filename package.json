@@ -18,7 +18,8 @@
     "babel-preset-env": "^1.7.0",
     "fractional": "^1.0.0",
     "live-server": "^1.2.1",
-    "source-map": "^0.7.3"
+    "source-map": "^0.7.3",
+    "uniqid": "^5.2.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.5.0",
