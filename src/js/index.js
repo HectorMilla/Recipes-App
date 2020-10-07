@@ -15,7 +15,6 @@ import Likes from "./jsModels/Likes";
  * - Liked recipes
  */
 const state = {};
-window.state = state;
 
 /**
  * SEARCH CONTROLLER
@@ -131,7 +130,6 @@ elements.shopping.addEventListener("click", (e) => {
     // Delete UI
     listView.deleteItem(id);
   } else if (e.target.matches(".shopping__count-value")) {
-    console.log("hi");
     // handle count update
     const val = parseFloat(e.target.value, 10);
     state.list.updateCount(id, val);
